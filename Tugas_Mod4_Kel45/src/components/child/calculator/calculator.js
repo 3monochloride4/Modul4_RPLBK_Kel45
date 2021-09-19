@@ -83,7 +83,7 @@ export default function Calculator() {
   useEffect(() => {
     if (jumlah.count1 !== 0 || jumlah.count2 !== 0 || jumlah.count3 !== 0)
     console.log(jumlah);
-});
+}, [jumlah]);
 /*    componentDidMount() {
         alert("Silahkan melanjutkan ke pemesanan dan pembayaran")
     }
